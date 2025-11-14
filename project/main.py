@@ -42,7 +42,7 @@ app.include_router(authentication.router)
 @app.get("/")
 def root():
     return {
-        "message": "Welcome to FastAPI Blog API ",
+        "message": "Welcome to FastAPI Blog API 🚀",
         "environment": APP_ENV,
-        # "in_docker": os.path.exists("/.dockerenv")
+        #  "in_docker": os.path.exists("/.dockerenv")
     }
